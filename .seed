@@ -1,0 +1,22 @@
+generate seed
+=============
+admission_fees,
+boards,
+departments,
+districts,
+divisions,
+faculties,
+groups,
+halls,
+info_reviews,
+photo_changes,
+photo_checks,
+quotas,
+registration_fees,
+student_categories,
+units,
+years
+
+command
+
+lando artisan iseed admission_fees,boards,departments,districts,divisions,faculties,groups,halls,info_reviews,photo_changes,photo_checks,quotas,registration_fees,student_categories,units,years--exclude=created_at,updated_at

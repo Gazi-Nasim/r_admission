@@ -1,0 +1,160 @@
+body {
+  padding-top: 50px;
+  background-color: #eee;
+}
+
+#main{
+	padding-top:20px;;
+}
+
+.panel, .panel-heading, .form-control, .btn, .alert{
+	/*border-radius: 0px;*/
+}
+
+.list-group-item {
+	/*border-radius: 0px!important;*/
+}
+
+.pagination  li  a{
+	/*border-radius: 0px!important;*/
+}
+
+
+.blink_me {
+  animation: blinker 5s alternate-reverse infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}
+
+/* 404 page */
+.error-template {padding: 40px 15px;text-align: center;}
+.error-template h1 {color: #ffaaaa}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
+/* form-section */
+
+.form-section {
+	padding: 15px;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+.form-group{
+	margin-bottom: 5px!important;
+}
+
+.help-block, .has-error{
+	margin-top: 0px!important;
+	margin-bottom: 5px!important;
+}
+
+.no-show{
+	display: none;
+}
+
+.rounded{
+    border-radius: 8px!important;
+}
+
+.btn-pink,
+.btn-pink:hover,
+.btn-pink:active,
+.btn-pink:visited,
+.btn-pink:focus {
+    background-color: #e3106e;
+    border-color: #e5419d;
+    color: #fff;
+}
+
+.btn-pink:hover {
+    color: #fff;
+    background-color: #c41c67;
+    border-color: #c41c67;
+}
+
+
+.btn-purple,
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:visited,
+.btn-purple:focus {
+    background-color: #89288F;
+    border-color: #89288F;
+    color: #fff;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: #611965;
+    border-color: #611965;
+}
+.bg-pink{
+    background-color: #e3106e;
+}
+
+.bg-purple{
+    background-color: #89288F;
+}
+
+.text-purple{
+    color: #89288F;
+}
+
+.text-pink{
+    color: #e3106e;
+}
+
+.accepted{
+    border: 2px solid #4CAF50;
+}
+
+.rejected{
+    border: 2px solid #f44336;
+}
+
+
+
+@media print{
+	.no-print {
+		display: none!important;
+	}
+
+	.print{
+		display: block!important;
+	}
+
+	.no-print-border {
+		border: none!important;
+	}
+
+	.container {
+		width: 95%!important;
+		border:none;
+	}
+
+	#body-content {
+		width: 98%!important;
+		/*border:none;*/
+	}
+
+	#main{
+		padding-top:0px;
+	}
+
+	#top-nav{
+		border: 0;
+		display: none;
+	}
+
+	body {
+	  padding-top: 0px;
+	  background-color: #fff;
+	}
+	#sidebar{
+		width: 0px;
+	}
+
+}

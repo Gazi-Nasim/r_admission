@@ -1,0 +1,6 @@
+name: ru-8
+recipe: laravel
+config:
+  webroot: public
+  via: nginx
+  php: "8.1"

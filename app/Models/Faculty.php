@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Faculty extends Model
+{
+    protected $guarded = ['id'];
+
+
+    public function unit()
+    {
+        return $this->belongsTo(Unit::class);
+    }
+
+    public function departments()
+    {
+        return $this->hasMany(Department::class);
+    }
+}

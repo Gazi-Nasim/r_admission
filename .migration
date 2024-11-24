@@ -1,0 +1,30 @@
+Generate Migration
+==================
+bills,
+enrollments,
+hsc,
+admission_fees,
+applications,
+boards,
+departments,
+districts,
+divisions,
+faculties,
+groups,
+halls,
+hsc_oth,
+info_reviews,
+photo_changes,
+photo_checks,
+quotas,
+registration_fees,
+student_categories,
+student_choices,
+student_details,
+subject_options,
+units,
+years
+
+
+Command:
+lando artisan migrate:generate --tables="bills,enrollments,hsc,admission_fees,applications,boards,departments,districts,divisions,faculties,groups,halls,hsc_oth,info_reviews,photo_changes,photo_checks,quotas,registration_fees,student_categories,student_choices,student_details,subject_options,units,years"
